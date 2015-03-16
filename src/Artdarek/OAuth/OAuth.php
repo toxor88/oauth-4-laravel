@@ -9,11 +9,11 @@ namespace Artdarek\OAuth;
 
 use Illuminate\Support\ServiceProvider;
 
-use \Config;
-use \URL;
+use Illuminate\Support\Facades\Config;
+use Illuminate\Support\Facades\URL;
 
-use \OAuth\ServiceFactory;
-use \OAuth\Common\Consumer\Credentials;
+use OAuth\ServiceFactory;
+use OAuth\Common\Consumer\Credentials;
 
 class OAuth
 {
